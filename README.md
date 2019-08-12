@@ -78,18 +78,17 @@ or delete the team from the game.
 
 While you are in a game, you can control the game as follows:
 
-Press <kbd>next</kbd> during the title screen, an *interlude* or when a solution is shown to jump to
-the next question. When pressing <kbd>next</kbd> while a question is shown, it will show the solution
-without awarding the points to any team.
+* Press <kbd>next</kbd> during the title screen, an *interlude* or when a solution is shown, to jump to the next question.
+* When pressing <kbd>next</kbd> while a question is shown, it will show the solution without awarding the points to any team.
 
-When a question is shown the teams can press their buzzer keys if they want to solve it.
-The team box of the team, that buzzered first will be colored. If the team answered correctly
-press the <kbd>correct</kbd> key. The team will be awared by the specific amount of points and the
-answer will be shown. If the team answered wrong press the <kbd>wrong</kbd> key. The team will be
-blocked from buzzing for a specific amount of time (indicated by a red progress line in the team
-box).
+* When a question is shown the teams can press their buzzer keys if they want to solve it.
+* The team box of the team, that buzzered first will be colored.
+* If the team answered correctly press the <kbd>correct</kbd> key.
+  * The team will be awared by the specific amount of points and the answer will be shown.
+* If the team answered wrong press the <kbd>wrong</kbd> key.
+  * The team will be blocked from buzzing for a specific amount of time (indicated by a red progress bar in the team box).
 
-If either the last question has been reached or at any time you press the <kbd>end game</kbd> button,
+* If either the last question has been reached or at any time you press the <kbd>end game</kbd> button,
 the game ends and the result will be shown.
 
 How to develop
@@ -97,12 +96,8 @@ How to develop
 
 *Requirements: NodeJS, npm, Modern Browser*
 
-To develop the game make sure you have NodeJS and gulp (`npm install -g gulp`) installed.
-
-Using Ubuntu you also need the nodejs-legacy package.
-
-All dependencies will be installed automatically if you do a `npm install` in the root directory of this project.
-
-Use `gulp` or `gulp serve` to run the game and watch for changes (except changes on the quizzes).
-
-Use `gulp package` to package a zip file with your current quizzes.
+* Using Ubuntu you also need the nodejs-legacy package.
+* To develop the game make sure you have NodeJS and gulp (`npm install -g gulp`) installed.
+* All dependencies will be installed automatically if you do a `npm install` in the root directory of this project.
+* Use `gulp` or `gulp serve` to run the game and watch for changes (except changes on the quizzes).
+* Use `gulp package` to package a zip file with your current quizzes.
